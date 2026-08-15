@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FashionVerse Registration</title>
+    <link rel="stylesheet" href="f_css.css">
+
+</head>
+
+<body>
+
+<h1>FashionVerse 2026 Registration</h1>
+
+<p>Fill in your details to register for the event.</p>
+
+<form action="success.html">
+
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Enter your full name" required><br><br>
+
+        <label>Age</label><br>
+        <input type="number" min="16" required><br><br>
+
+        <label>Date of Birth</label><br>
+        <input type="date"><br><br>
+
+        <label>Gender</label><br>
+
+        <input type="radio" name="gender" required> Female
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Other
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Contact Information</b></legend>
+
+        <label>Email Address</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+
+        <label>Password</label><br>
+        <input type="password" placeholder="Create a password" required><br><br>
+
+        <label>Phone Number</label><br>
+        <input type="tel" placeholder="Enter your phone number" required><br><br>
+
+        <label>Country</label><br>
+
+        <select required>
+            <option value="">-- Select Country --</option>
+            <option>India</option>
+            <option>Singapore</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>United Kingdom</option>
+        </select>
+
+        <br><br>
+
+        <label>City</label><br>
+        <input type="text" placeholder="Enter your city">
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+
+        <legend><b>Areas of Interest</b></legend>
+
+        <input type="checkbox"> Makeup Trends<br><br>
+
+        <img src="images/makeup.jpg" alt="Makeup" width="150">
+
+        <br><br>
+
+        <input type="checkbox"> Skincare<br><br>
+
+        <img src="images/skincare.jpg" alt="Skincare" width="150">
+
+        <br><br>
+
+        <input type="checkbox"> Hair Care<br><br>
+
+        <img src="images/haircare.jpg" alt="Hair Care" width="150">
+
+        <br><br>
+
+        <input type="checkbox"> Beauty Workshop
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+
+        <legend><b>Feedback</b></legend>
+
+        <label>Why do you want to attend this event?</label><br>
+
+        <textarea rows="5" cols="50"
+        placeholder="Write your answer here..."></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <h2>Event Schedule</h2>
+
+    <table border="1" cellpadding="8">
+
+        <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Speaker</th>
+            <th>Venue</th>
+        </tr>
+
+        <tr>
+            <td>09:30 AM</td>
+            <td>Registration & Welcome</td>
+            <td>Event Team</td>
+            <td>Main Hall</td>
+        </tr>
+
+        <tr>
+            <td>10:30 AM</td>
+            <td>Latest Makeup Trends</td>
+            <td>Priya Sharma</td>
+            <td>Hall A</td>
+        </tr>
+
+        <tr>
+            <td>11:45 AM</td>
+            <td>Skincare Essentials</td>
+            <td>Ananya Kapoor</td>
+            <td>Hall B</td>
+        </tr>
+
+        <tr>
+            <td>01:00 PM</td>
+            <td>Lunch Break</td>
+            <td>-</td>
+            <td>Food Court</td>
+        </tr>
+
+        <tr>
+            <td>02:00 PM</td>
+            <td>Fashion Styling Workshop</td>
+            <td>Meera Nair</td>
+            <td>Hall C</td>
+        </tr>
+
+        <tr>
+            <td>03:30 PM</td>
+            <td>Beauty Influencer Session</td>
+            <td>Riya Verma</td>
+            <td>Hall A</td>
+        </tr>
+
+        <tr>
+            <td>04:30 PM</td>
+            <td>Lucky Draw & Closing Ceremony</td>
+            <td>Event Team</td>
+            <td>Main Hall</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <fieldset>
+
+        <legend><b>Declaration</b></legend>
+
+        <input type="checkbox" required>
+
+        I agree to the Terms & Conditions.
+
+    </fieldset>
+
+    <br>
+
+    <input type="reset" value="Reset">
+
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+
+</html>

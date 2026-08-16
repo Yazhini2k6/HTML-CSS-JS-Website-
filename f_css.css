@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 16px; /* px absolute unit */
+  background: radial-gradient(circle at top, #1c1c1c 0%, #0b0b0c 55%, #000000 100%);
+  color: #eae6da;
+  line-height: 1.6;
+}
+
+.container {
+  width: 70vw;
+  margin: 5vh auto;
+  padding: 2rem;
+  background-color: rgba(20, 18, 14, 0.75);
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #d4af37;
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+p {
+  color: #cfc7b3;
+  text-align: center;
+  font-style: italic;
+}
+
+label {
+  font-weight: bold;
+  color: #d4af37;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #8a6d1f;
+  border-radius: 4px;
+  background-color: #141210;
+  color: #f5f0e6;
+  text-indent: 5px;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #d4af37;
+  outline-offset: 2px;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+}
+
+button, input[type="submit"], input[type="reset"] {
+  background: linear-gradient(135deg, #d4af37, #a67c1c);
+  color: #141210;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10pt 20pt;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+  background: linear-gradient(135deg, #f1d68c, #d4af37);
+  color: #000000;
+}
+
+a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f1d68c;
+  text-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #8a6d1f;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #1c1a16;
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+td {
+  background: rgba(212, 175, 55, 0.06);
+  color: #eae6da;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  accent-color: #d4af37;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  border: 2px solid #d4af37;
+  border-radius: 6px;
+}

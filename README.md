@@ -18,8 +18,8 @@ FashionVerse 2026 is a simple, responsive event registration website created for
 
 * [x] HTML structure
 * [x] CSS styling
-* [ ] JavaScript interactivity
-* [ ] Final polish and bug fixes
+* [x] JavaScript interactivity
+* [x] Final polish and bug fixes
 
 ## Author
 
